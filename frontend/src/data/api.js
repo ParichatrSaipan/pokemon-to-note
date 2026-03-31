@@ -1,4 +1,7 @@
-const API_BASE = 'http://localhost:3000'
+import config from '../config/configureAPI'
+
+const env = import.meta.env.MODE
+const API_BASE = config[env]?.API || config.development.API
 const TOKEN = 'mysecrettoken'
 const NOTES_URL = `${API_BASE}/api/notes`
 
