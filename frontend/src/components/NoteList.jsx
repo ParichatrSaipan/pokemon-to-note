@@ -67,7 +67,7 @@ export default function NoteList({ notes, fetching, connected, onSelect, onDelet
           key={ball.id}
           src={PokeBallImg}
           alt=""
-          className="absolute pointer-events-none z-0"
+          className="absolute pointer-events-none z-0 mix-blend-screen"
           style={{
             top: ball.top,
             left: ball.left,
