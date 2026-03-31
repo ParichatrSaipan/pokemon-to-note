@@ -2,6 +2,16 @@
 
 A full-stack note-taking app with a Pokèmon theme. Each note is assigned a random Pokèmon. Supports local JSON storage or cloud storage via PocketHost — switchable at runtime without restarting the server.
 
+## Table of Contents
+
+- [Project Structure](#project-structure)
+- [Backend](#backend)
+- [Frontend](#frontend)
+- [Deployment](#deployment)
+- [API Endpoints](#api-endpoints)
+
+---
+
 ## Project Structure
 
 ```
@@ -85,8 +95,6 @@ The API URL is managed in `src/config/configureAPI.js`. It switches automaticall
 | `npm run build` (production) | `https://pokemon-to-note-api.up.railway.app` |
 
 Update the `production` URL in `configureAPI.js` if you deploy the backend elsewhere.
-
----
 
 ---
 
