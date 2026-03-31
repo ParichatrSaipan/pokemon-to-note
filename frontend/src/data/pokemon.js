@@ -34,7 +34,7 @@ const CARD_ASSETS = {
 export const POKEMON = [
   {
     id: 1,
-    name: 'Squirtle',
+    name: 'Suicune',
     type: 'Water',
     typeFolder: 'water',
     color: '#3B82F6',
@@ -43,7 +43,7 @@ export const POKEMON = [
   },
   {
     id: 2,
-    name: 'Houndoom',
+    name: 'Zoroark',
     type: 'Dark',
     typeFolder: 'dark',
     color: '#1F2937',
@@ -52,7 +52,7 @@ export const POKEMON = [
   },
   {
     id: 3,
-    name: 'Alakazam',
+    name: 'Mew',
     type: 'Psychic',
     typeFolder: 'psychic',
     color: '#8B5CF6',
@@ -61,7 +61,7 @@ export const POKEMON = [
   },
   {
     id: 4,
-    name: 'Clefable',
+    name: 'Clefairy',
     type: 'Fairy',
     typeFolder: 'fairy',
     color: '#EC4899',
@@ -70,7 +70,7 @@ export const POKEMON = [
   },
   {
     id: 5,
-    name: 'Onix',
+    name: 'Cubchoo',
     type: 'Ice',
     typeFolder: 'ice',
     color: '#64748B',
@@ -79,7 +79,7 @@ export const POKEMON = [
   },
   {
     id: 6,
-    name: 'Bulbasaur',
+    name: 'Serperior',
     type: 'Grass',
     typeFolder: 'grass',
     color: '#22C55E',

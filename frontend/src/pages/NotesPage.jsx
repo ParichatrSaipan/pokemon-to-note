@@ -70,7 +70,7 @@ export default function NotesPage() {
       <div className="max-w-6xl mx-auto mb-12 flex justify-between items-start gap-6">
         <div>
           <h1 className="text-gray-400 text-lg font-light">Select Your</h1>
-          <h2 className="text-white text-4xl sm:text-5xl font-bold">Pokèmon to note</h2>
+          <h2 className="text-white text-4xl sm:text-5xl font-bold">Pokèmon to Note</h2>
           {!storageMode || storageMode === 'unknown' ? (
             <div className="mt-2 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/5 border border-white/10 animate-pulse">
               <span className="w-1.5 h-1.5 rounded-full bg-gray-600" />
