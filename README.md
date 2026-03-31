@@ -35,7 +35,9 @@ A full-stack note-taking app with a Pokèmon theme. Each note is assigned a rand
         api.js            # Fetch functions (GET, POST, DELETE + console logs)
         useNotes.js       # Custom hook — notes state + storage mode
         pokemon.js        # Pokèmon data and card assets
-    index.css             # Tailwind + custom classes
+      config/
+        configureAPI.js   # API base URL (switches dev/production automatically)
+    index.css             # Tailwind base styles
   README.md
   REPORT.md
 ```
@@ -61,7 +63,7 @@ Server starts on `http://localhost:3000`
 Create `backend/.env`:
 
 ```env
-PORT=3000
+PORT=3000          # omit this if deploying to Railway (Railway injects PORT automatically)
 SECRET_TOKEN=your_secret_here
 ```
 
