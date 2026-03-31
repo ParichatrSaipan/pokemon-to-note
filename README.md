@@ -5,7 +5,7 @@ A full-stack note-taking app with a Pokèmon theme. Each note is assigned a rand
 ## Project Structure
 
 ```
-/pokemon-to-note1
+/pokemon-to-note
   /backend
     server.js       # Express server — all routes in one file
     notes.json      # Local notes storage (auto-created)
