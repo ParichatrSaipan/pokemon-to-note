@@ -2,6 +2,8 @@
 
 A full-stack note-taking app with a Pokèmon theme. Each note is assigned a random Pokèmon. Supports local JSON storage or cloud storage via PocketHost — switchable at runtime without restarting the server.
 
+![Demo](./images/demo.gif)
+
 ## Table of Contents
 
 - [Project Structure](#project-structure)
@@ -71,7 +73,9 @@ POCKETHOST_USER_ID=1
 POCKETHOST_TOKEN=your_token
 ```
 
-If `POCKETHOST_URL` is set, the server starts in PocketHost mode. Otherwise it uses local `notes.json`. The mode can be toggled at runtime via `POST /api/status/toggle` without restarting.
+If `POCKETHOST_URL` is set, the server starts in PocketHost mode. Otherwise it uses local `notes.json`. The mode can be toggled at runtime via `POST /api/status/toggle` without restarting, or by clicking the storage badge on the main page of the frontend.
+
+![Status](./images/status.gif)
 
 ---
 
