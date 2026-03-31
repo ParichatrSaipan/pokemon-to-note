@@ -3,7 +3,7 @@ function PokemonInfo({ pokemon }) {
 
   return (
     <div
-      className="flex gap-2 items-center rounded-lg p-3 w-fit"
+      className="flex gap-2 items-center rounded-lg p-3 w-fit border border-white/10"
       style={{ backgroundColor: pokemon.bgColor || '#6b7280' }}
     >
       {pokemon.cardAssets?.pokemon && (
@@ -53,7 +53,14 @@ export default function NoteDetail({ note, onClose }) {
           {note.pokemon && (
             <div className="pt-4 border-t border-gray-700">
               <p className="text-sm text-gray-400 mb-2">Associated Pokemon</p>
-              <PokemonInfo pokemon={note.pokemon} />
+              <a
+                href={`https://www.google.com/search?q=${note.pokemon.name}+pokemon`}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Search ${note.pokemon.name} on Google`}
+              >
+                <PokemonInfo pokemon={note.pokemon} />
+              </a>
             </div>
           )}
         </div>

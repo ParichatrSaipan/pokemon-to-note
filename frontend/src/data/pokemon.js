@@ -46,8 +46,8 @@ export const POKEMON = [
     name: 'Zoroark',
     type: 'Dark',
     typeFolder: 'dark',
-    color: '#1F2937',
-    bgColor: '#111827',
+    color: '#374151',
+    bgColor: '#1F2937',
     cardAssets: CARD_ASSETS.dark,
   },
   {
